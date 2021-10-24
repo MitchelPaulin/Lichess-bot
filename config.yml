@@ -10,8 +10,8 @@ engine:                      # Engine settings.
     enabled: false           # Activate polyglot book.
     book:
       standard:              # List of book file paths for variant standard.
-        - engines/book1.bin
-        - engines/book2.bin
+        - engines/book.bin
+        # - engines/book2.bin
 #     atomic:                # List of book file paths for variant atomic.
 #       - engines/atomicbook1.bin
 #       - engines/atomicbook2.bin
@@ -111,5 +111,5 @@ greeting:
     #   {opponent} to insert opponent's name
     #   {me} to insert bot's name
     # Any other words in curly braces will be removed.
-    hello: "Hi! I'm {me}. Good luck! Type !help for a list of commands I can respond to." # Message to send to chat at the start of a game
+    hello: "Hi! I'm {me}. You can find my code on GitHub https://github.com/MitchelPaulin/Walleye" # Message to send to chat at the start of a game
     goodbye: "Good game!" # Message to send to chat at the end of a game
