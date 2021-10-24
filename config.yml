@@ -111,5 +111,5 @@ greeting:
     #   {opponent} to insert opponent's name
     #   {me} to insert bot's name
     # Any other words in curly braces will be removed.
-    hello: "Hi! I'm {me}. You can find my code on GitHub https://github.com/MitchelPaulin/Walleye" # Message to send to chat at the start of a game
+    hello: "Hi! I'm {me}." # Message to send to chat at the start of a game
     goodbye: "Good game!" # Message to send to chat at the end of a game
